@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express</title>
+    <link rel="stylesheet" href="./stylesheets/reset.css">
+
+    <link rel="stylesheet" href="./stylesheets/style.css">
+
+</head>
+
+<body>
+
+<div class="sailormoon"></div>
+<div class="mockup__container">
+    <div class="mockup">
+        <div class="mockup__frontcamera"></div>
+        <div class="mockup__proximitysensor"></div>
+
+        <div class="mockup__receiver"></div>
+        <div class="mockup__button__switch"></div>
+        <div class="mockup__button__volume up"></div>
+        <div class="mockup__button__volume down"></div>
+        <div class="mockup__button__power"></div>
+        <div class="mockup__screen">
+            <div class="display__header">
+                <ul class="display__items">
+                    <li class="display__network">Fi ●●●○○</li>
+                    <li class="display__time">10:12 AM</li>
+                    <li class="display__battery">🔋</li>
+                </ul>
+
+            </div>
+            <div class="game__header">
+                <ul class="game__controls">
+                    <li class="game__controls__item">
+    <span id="game__controls__score" class="game__controls__score">
+      0
+    </span>
+                    </li>
+                    <li class="game__controls__item">
+                        <button type="button" id="game__control__button" class="game__controls__button start">Start
+                        </button>
+                    </li>
+
+                </ul>
+                <div class="game__slider">
+                    <input class="game__slider__input" id="slider__" type="range" value="20" min="10" max="100" />
+
+                    <label for="slider__" class="game__slider__input__label" id="game__slider__input__label">Speed:</label>
+                </div>
+            </div>
+            <div id="canvas__" class="canvas__">
+                <div id="dot__container" class="dot__container">
+                    <div class="canvas__inner" id="canvas__inner"><span class="paused__state">Paused
+
+                    </span></div>
+                </div>
+            </div>
+        </div>
+        <div class="mockup__button__home"></div>
+    </div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="javascripts/index.js"></script>
+</html>
