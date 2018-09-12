@@ -6,6 +6,7 @@ class game {
         this.speedElem=document.getElementById('game__slider__input__label');
         this.scoreElem = document.getElementById('game__controls__score');
         this.gameHeaderElem = document.getElementsByClassName('game__header');
+        // this.gandalf;
 //State
         this.gameState = Boolean(false);
         this.score = 0;
